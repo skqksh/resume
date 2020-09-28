@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-export default () => (
+export default (): JSX.Element => (
   <>
     <h1>Welcome to React Parcel Micro App!</h1>
     <p>Hard to get more minimal than this React app.</p>
   </>
-);
+)
