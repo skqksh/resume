@@ -1,8 +1,15 @@
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+
+import Router from './Router'
+
+import Header from '@components/Layout/Header'
+import Footer from '@components/Layout/Footer'
 
 export default (): JSX.Element => (
-  <>
-    <h1>Welcome to React Parcel Micro App!</h1>
-    <p>Hard to get more minimal than this React app.</p>
-  </>
+  <BrowserRouter>
+    <Header />
+    <Router />
+    <Footer />
+  </BrowserRouter>
 )

@@ -5,10 +5,10 @@
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "~*": ["./*"]
+      "@components/*": ["components/*"]
     },
     "strict": true,
     "target": "ES2015"
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "./typings/*"]
 }
